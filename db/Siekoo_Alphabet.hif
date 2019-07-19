@@ -1,0 +1,202 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+decodificador
+# storage
+db|Siekoo_Alphabet.(1).cnf
+db|Siekoo_Alphabet.(1).cnf
+# case_insensitive
+# source_file
+decodificador.bdf
+21cef84977960e43226c7e61f272cae
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst
+}
+# macro_sequence
+
+# end
+# entity
+saida_A
+# storage
+db|Siekoo_Alphabet.(2).cnf
+db|Siekoo_Alphabet.(2).cnf
+# case_insensitive
+# source_file
+saida_A.bdf
+aac2814ec460b18bbd8eb379ff8aff4a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst|saida_A:inst5
+}
+# macro_sequence
+
+# end
+# entity
+saida_B
+# storage
+db|Siekoo_Alphabet.(3).cnf
+db|Siekoo_Alphabet.(3).cnf
+# case_insensitive
+# source_file
+saida_B.bdf
+fef723ef2591754d3f8c54b58f1dd71f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst|saida_B:inst6
+}
+# macro_sequence
+
+# end
+# entity
+saida_C
+# storage
+db|Siekoo_Alphabet.(4).cnf
+db|Siekoo_Alphabet.(4).cnf
+# case_insensitive
+# source_file
+saida_C.bdf
+a7fc3ebe4efd8c31565e2c3d5e40d0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst|saida_C:inst7
+}
+# macro_sequence
+
+# end
+# entity
+saida_D
+# storage
+db|Siekoo_Alphabet.(5).cnf
+db|Siekoo_Alphabet.(5).cnf
+# case_insensitive
+# source_file
+saida_D.bdf
+8127a4ba4f72f1575271144868646b74
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst|saida_D:inst8
+}
+# macro_sequence
+
+# end
+# entity
+saida_E
+# storage
+db|Siekoo_Alphabet.(6).cnf
+db|Siekoo_Alphabet.(6).cnf
+# case_insensitive
+# source_file
+saida_E.bdf
+bebfd871737022c2881982b7e2d9ab81
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst|saida_E:inst9
+}
+# macro_sequence
+
+# end
+# entity
+saida_F
+# storage
+db|Siekoo_Alphabet.(7).cnf
+db|Siekoo_Alphabet.(7).cnf
+# case_insensitive
+# source_file
+saida_F.bdf
+5af760d18f25bdfec1956beedcdcc7e8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst|saida_F:inst10
+}
+# macro_sequence
+
+# end
+# entity
+saida_G
+# storage
+db|Siekoo_Alphabet.(8).cnf
+db|Siekoo_Alphabet.(8).cnf
+# case_insensitive
+# source_file
+saida_G.bdf
+2054ba694f7ead4d9cfd4677329ad9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decodificador:inst|saida_G:inst11
+}
+# macro_sequence
+
+# end
+# entity
+Siekoo_Alphabet
+# storage
+db|Siekoo_Alphabet.(0).cnf
+db|Siekoo_Alphabet.(0).cnf
+# case_insensitive
+# source_file
+Siekoo_Alphabet.bdf
+d59b72accad8dee54de95c17664485
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
